@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+    /* width: 20%; */
+    margin-top: 40px;
+    border: 10px solid red;
+    padding: 20px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.circle {
+    background: red;
+    color: white;
+    border-radius: 50%;     /* Make circle, can do other shapes as well */
+    padding: 5px 20px;
+    font-size: 65px;
+}
+
+.circle:hover {
+    background-color: gray;
+}
